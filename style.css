@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Montserrat";
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+header {
+  width: 100%;
+  height: 193px;
+  background: rgb(165, 255, 229);
+  background: linear-gradient(
+    150deg,
+    rgba(165, 255, 229, 1) 10%,
+    rgba(51, 4, 133, 1) 100%
+  );
+  padding: 32px 70px;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.card {
+  background-color: #2e2e2e;
+  width: 254px;
+  height: 124px;
+  border-radius: 20px;
+  padding: 8px 15px;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-left {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.card-left img {
+  width: 22px;
+  height: 14px;
+}
+
+.card-left h3 {
+  font-family: "Montserrat";
+  color: #676767;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.card-right {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.card-right img {
+  width: 13px;
+  height: 14px;
+}
+
+.card-right h3 {
+  font-family: "Montserrat";
+  color: #676767;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.card-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-main h3 {
+  color: #676767;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 11px;
+}
+
+.card-main h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 12px;
+}
+
+main {
+  width: 100%;
+  height: 403px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main img {
+  width: 97px;
+  height: 107px;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+footer {
+  background: rgb(165, 255, 229);
+  background: linear-gradient(
+    150deg,
+    rgba(165, 255, 229, 1) 10%,
+    rgba(51, 4, 133, 1) 100%
+  );
+  border-radius: 40px 40px 0px 0px;
+  padding: 24.5px 41px;
+}
+
+footer .icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 42px;
+  height: 42px;
+}
